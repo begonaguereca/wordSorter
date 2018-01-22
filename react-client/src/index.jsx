@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-//import List from './components/List.jsx';
+import Sorter from './components/Sorter.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -9,22 +9,14 @@ class App extends React.Component {
     this.state = {}
   }
 
-  // componentDidMount() {
-  //   $.ajax({
-  //     url: '/items',
-  //     success: (data) => {},
-  //     error: (err) => {
-  //       console.log('err', err);
-  //     }
-  //   });
-  }
-
   render () {
     return (
-    <div>
-      <h1>Sort Word</h1>
-    </div>
-  )}
+      <div>
+        <h1>Sort that WORD!</h1>
+        <Sorter/>
+      </div>
+    )
+  }
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
