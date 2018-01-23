@@ -38,12 +38,12 @@ class Sorter extends React.Component {
     <div>
       <form onSubmit={this.handleSubmit}>
        <label>
-          Type here:
+         Type here --
           <input value={this.state.value} onChange={this.handleChange} />
         </label>
         <input type="submit" value="Submit" />
       </form>
-			Alpha Order: {this.state.result}
+      <div className="output">Alpha Order: {this.state.result}</div>
     </div>
     );
   }

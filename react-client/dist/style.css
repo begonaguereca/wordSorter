@@ -1,0 +1,26 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 450%;
+}
+
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/10/20/17/13/space-2871993_1280.jpg");
+}
+
+/*.input {
+  color: white;
+  padding-left: 50px;
+}*/
+
+form {
+  color: white;
+  padding-left: 300px;
+  font-size: 150%;
+}
+
+.output {
+  font-size: 150%;
+  color: white;
+  padding-left: 300px;
+}

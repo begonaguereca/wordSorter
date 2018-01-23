@@ -12,7 +12,7 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <h1>Sort that WORD!</h1>
+        <h1>Sort that Word</h1>
         <Sorter/>
       </div>
     )
